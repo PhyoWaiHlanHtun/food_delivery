@@ -29,6 +29,7 @@ flutter:
     - assets/images/hamburger.png
     - assets/images/ice_cream.png
     - assets/images/hot_beverage.png
+    - assets/images/icons8-ice-cream-cone-48.png
 
   fonts:
     - family: Pyidaungsu

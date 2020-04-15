@@ -1,23 +1,10 @@
-class Food{
-  final String id;
-  final String name;
-  final String imagePath;
-  final String category;
-  final double price;
-  final double discount;
-  final double ratings;
-
-  Food ({
-    this.id, this.name, this.imagePath, this.category, this.price, this.discount, this.ratings
-  }
-  );
-}  
+import 'package:food_delivery/src/models/food_model.dart';
 
   final foods = [
 
     Food(
       id: "1",
-      name: "Hamburger",
+      name: "ဟမ်ဘာကာ",
       imagePath: "assets/images/hamburger.png",
       category: "1",
       price: 3000.0,
@@ -27,7 +14,7 @@ class Food{
 
     Food(
       id: "2",
-      name: "Ice Cream",
+      name: "ရေခဲမုန့်",
       imagePath: "assets/images/ice_cream.png",
       category: "2",
       price: 1500.0,
@@ -37,7 +24,7 @@ class Food{
 
     Food(
       id: "3",
-      name: "Hot Beverage",
+      name: "အဖျော် ယာမကာ",
       imagePath: "assets/images/hot_beverage.png",
       category: "3",
       price: 2000.0,

@@ -6,6 +6,14 @@ class FoodCard extends StatelessWidget {
   final int numberOfItems;
 
   FoodCard({this.categoryName, this.imagePath, this.numberOfItems});
+ 
+  final textStyle = TextStyle(
+      fontSize: 14.0,
+      fontWeight: FontWeight.bold,
+      fontFamily: 'PyidaungsuBold');
+
+      final textStyle1 = TextStyle(
+      fontFamily: 'Pyidaungsu');
 
   @override
   Widget build(BuildContext context) {
@@ -30,9 +38,12 @@ class FoodCard extends StatelessWidget {
                   Text(
                     categoryName,
                     style:
-                        TextStyle(fontWeight: FontWeight.bold, fontSize: 14.0),
+                        textStyle,
                   ),
-                  Text("$numberOfItems Kinds")
+                  Text(
+                    "$numberOfItems အမျိုးအစားများ",
+                    style: textStyle1,
+                    )
                 ],
               ),
             ],

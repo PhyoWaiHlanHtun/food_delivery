@@ -4,17 +4,17 @@ final categories = [
   Category(
       numberOfItems: 73,
       imagePath: "assets/images/icons8-beer-48.png",
-      categoryName: "Beer"),
+      categoryName: "ဘီယာ"),
   Category(
       numberOfItems: 100,
-      imagePath: "assets/images/icons8-no-drugs-48.png",
-      categoryName: "Weeds"),
+      imagePath: "assets/images/icons8-ice-cream-cone-48.png",
+      categoryName: "ရေခဲမုန့်"),
   Category(
       numberOfItems: 50,
       imagePath: "assets/images/icons8-cheese-wedge-48.png",
-      categoryName: "Cheese Wedge"),
+      categoryName: "ဒိန်ခဲ"),
   Category(
       numberOfItems: 43,
       imagePath: "assets/images/icons8-hamburger-48.png",
-      categoryName: "HamBurger"),
+      categoryName: "ဟမ်ဘာကာ"),
 ];
