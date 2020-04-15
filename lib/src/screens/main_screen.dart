@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../pages/home_page.dart';
 import '../pages/order_page.dart';
+import '../pages/favourite_page.dart';
+import '../pages/profile_page.dart';
 
 
 class MainScreen extends StatefulWidget{
@@ -18,14 +20,18 @@ class _MainScreenState extends State<MainScreen>{
 
   HomePage homePage;
   OrderPage orderPage;
+  FavouritePage favouritePage;
+  ProfilePage profilePage;
 
   @override
   void initState() {
     super.initState();
     homePage = HomePage();
     orderPage = OrderPage();
+    favouritePage = FavouritePage();
+    profilePage = ProfilePage();
 
-    pages = [homePage, orderPage];
+    pages = [homePage, orderPage, favouritePage, profilePage];
 
     currentPage = homePage;
   }
