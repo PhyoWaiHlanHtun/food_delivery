@@ -1,6 +1,9 @@
-# food_delivery
+# Food Delivery
 
-A new Flutter project.
+- Flutter project.
+
+## Sample Layouts
+- [Home Screen](https://flutter.dev/docs/get-started/codelab)
 
 ## Getting Started
 

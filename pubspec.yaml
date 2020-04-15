@@ -27,6 +27,8 @@ flutter:
     - assets/images/icons8-beer-48.png
     - assets/images/weed-card.png 
     - assets/images/hamburger.png
+    - assets/images/ice_cream.png
+    - assets/images/hot_beverage.png
 
   fonts:
     - family: Pyidaungsu
