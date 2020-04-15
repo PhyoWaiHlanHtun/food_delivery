@@ -37,7 +37,13 @@ class _MainScreenState extends State<MainScreen>{
   }
 
   final textStyle = TextStyle(
-      fontFamily: 'Pyidaungsu');
+      fontFamily: 'Pyidaungsu'
+      );
+
+  final textStyleTitle = TextStyle(
+      fontFamily: 'PyidaungsuBold' ,
+      color: Colors.black,
+      );    
 
   @override
   Widget build(BuildContext context){
