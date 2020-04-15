@@ -3,8 +3,9 @@
 - Flutter project.
 
 ## Sample Layouts
-- [Home Screen](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/Home.png)
-- [Layout 1](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/Layout-1.jpg)
+- [Main Page](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/Main.png)
+- [Home Page](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/HomePage.jpg)
+- [Order Page](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/OrderPage.jpg)
 
 ## Getting Started
 
