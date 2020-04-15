@@ -1,0 +1,40 @@
+name: food_delivery
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons8-hamburger-48.png
+    - assets/images/icons8-cheese-wedge-48.png
+    - assets/images/icons8-no-drugs-48.png
+    - assets/images/icons8-beer-48.png
+    - assets/images/weed-card.png 
+    - assets/images/hamburger.png
+
+  fonts:
+    - family: Pyidaungsu
+      fonts:
+        - asset: fonts/Pyidaungsu-2.5.3_Regular.ttf
+    - family: PyidaungsuBold
+      fonts:
+        - asset: fonts/Pyidaungsu-2.5.3_Bold.ttf
+          weight: 700
+
+
