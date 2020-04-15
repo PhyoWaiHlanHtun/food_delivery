@@ -23,6 +23,14 @@ class BoughtFoods extends StatefulWidget {
 }
 
 class _BoughtFoodsState extends State<BoughtFoods> {
+
+  final textStyle = TextStyle(
+      fontSize: 16.0,
+      fontWeight: FontWeight.bold,
+      fontFamily: 'PyidaungsuBold',
+      color: Colors.white,
+      );
+
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
@@ -63,11 +71,7 @@ class _BoughtFoodsState extends State<BoughtFoods> {
                   children: <Widget>[
                     Text(
                       widget.name,
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16.0,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: textStyle,
                     ),
                     Row(
                       children: <Widget>[
