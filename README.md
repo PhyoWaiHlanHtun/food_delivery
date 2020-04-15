@@ -3,7 +3,8 @@
 - Flutter project.
 
 ## Sample Layouts
-- [Home Screen](https://flutter.dev/docs/get-started/codelab)
+- [Home Screen](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/Home.png)
+- [Layout 1](https://raw.githubusercontent.com/PhyoWaiHlanHtun/food_delivery/master/screenshot/Layout-1.jpg)
 
 ## Getting Started
 
